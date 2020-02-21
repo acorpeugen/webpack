@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<% var data = {
+title: "Home",
+}; %>
+<%= _.template(require('./../includes/head.html'))(data) %>
+<body>
+<%= _.template(require('./../includes/header.html'))(data) %>
+<div class="main-container">
+  <h1>Home </h1>
+  <svg>
+    <use xlink:href="#truck"></use>
+  </svg>
+</div>
+<%= _.template(require('./../includes/footer.html'))(data) %>
+<%= _.template(require('./../includes/script.html'))(data) %>
+</body>
+</html>
