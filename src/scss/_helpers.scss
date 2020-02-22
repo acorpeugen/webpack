@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+
+}
+
+.main-container {
+  padding-top: $main-container-mobile-padding-top;
+  flex: 1;
+
+  //@include media-breakpoint-up(lg) {
+  //  padding-top: $main-container-padding-top;
+  //}
+}
